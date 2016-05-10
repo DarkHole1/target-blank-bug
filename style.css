@@ -1,3 +1,31 @@
-span {
-  display: block;
+@import url(https://fonts.googleapis.com/css?family=Unica+One);
+* {
+  font-family: 'Unica One', cursive;
+  color: #00f;
+  font-size: 25px;
+}
+body {
+  background: #003;
+}
+button {
+  font-size: 50px;
+  outline: none;
+  border: 0 solid black;
+  border-radius: 0px;
+  background: #00f;
+  color: #008;
+}
+button:checked {
+  background: red;
+}
+div.separator {
+  text-align: right;
+  color: #00f;
+  border-bottom: 2px solid #00f;
+  width: 50%;
+  font-size: 25px;
+}
+div.wrapper {
+  display: inline-block;
+  text-align: left;
 }
